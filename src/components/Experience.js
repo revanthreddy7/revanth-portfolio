@@ -6,9 +6,10 @@ const experiences = [
     company: "Pragmatic Play India Pvt. Ltd",
     duration: "Jan 2023 - Jul 2023",
     details: [
-      "Designed and executed RESTful APIs using Java, Spring Boot, SQL.",
-      "Integrated Redis caching and Kafka-based message broadcasting.",
-      "Deployed services using Docker, Jenkins, and monitored via Grafana."
+      "Designed and executed server-side APIs utilizing Java, Spring Boot, and SQL technologies by creating REST API service and managed version control for an internal administrative portal",
+      "Integrated Redis caching with Spring Boot APIs, reducing database load by 60% and improving response times, while enabling real-time communication with Kafka-based message broadcasting",
+      "Fixed bugs for two gaming projects by optimizing the code and maintained the readability of the code. Enabled real-time communication for the gaming dashboard with Kafka-based message broadcasting",
+      "Deployed and monitored CI/CD pipelines and services using Docker, Jenkins, and Grafana dashboards for resource tracking improving reliability for QA environments releases"
     ]
   },
   {
@@ -16,9 +17,18 @@ const experiences = [
     company: "Rapid InSys",
     duration: "Sep 2021 - Dec 2022",
     details: [
-      "Built real-time shuttle tracking app with Java Spring Boot and React.",
-      "Automated tasks with Linux shell scripts and achieved 99% test coverage.",
-      "Integrated Redis caching and monitored performance with Splunk, Grafana."
+      "      Developed and maintained automated data extraction pipelines using Python, parsing varied file formats and ensuring data accuracy through robust retesting",
+      "Deployed containerized applications via Docker on AWS EC2 and automated workflows using Apache NiFi, with real-time ingestion from Amazon S3 to PostgreSQL and MongoDB",
+      "Built RESTful APIs using Python (Flask) and PostgreSQL, and implemented Redis caching to optimize response times for client-facing services",
+      "Created a real-time shuttle tracking system with a Python-Flask backend and React frontend, and monitored performance using Splunk, Grafana, and automated Bash scripts"
+
+
+
+
+
+      // "Built real-time shuttle tracking app with Java Spring Boot and React.",
+      // "Automated tasks with Linux shell scripts and achieved 99% test coverage.",
+      // "Integrated Redis caching and monitored performance with Splunk, Grafana."
     ]
   },
   {
@@ -26,7 +36,7 @@ const experiences = [
     company: "Cryptographic Solutions",
     duration: "Jul 2021 - Sep 2021",
     details: [
-      "Developed iOS application using Swift, ensuring seamless UI/UX.",
+      "Developed mobile application using Flutter, ensuring seamless UI/UX.",
       "Optimized app performance and refactored frontend-backend integration."
     ]
   }

@@ -10,13 +10,13 @@ const Contact = () => {
         Feel free to reach out for collaboration, opportunities, or tech discussions.
       </p>
       <div className="flex gap-8 mt-4">
-        <a href="mailto:revanthshada2001@gmail.com" target="_blank" rel="noreferrer">
+        <a href="mailto:revanthshada@gmail.com" target="_blank" rel="noreferrer">
           <FaEnvelope size={32} className="hover:text-blue-500" />
         </a>
         <a href="https://linkedin.com/in/revanthshada" target="_blank" rel="noreferrer">
           <FaLinkedin size={32} className="hover:text-blue-700" />
         </a>
-        <a href="https://github.com/" target="_blank" rel="noreferrer">
+        <a href="https://github.com/revanthreddy7" target="_blank" rel="noreferrer">
           <FaGithub size={32} className="hover:text-gray-700" />
         </a>
       </div>

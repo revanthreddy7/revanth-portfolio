@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import profilePic from '../assets/myphoto.png'; // ✅ Import profile image
+import resume from '../assets/revanthshada_resume.pdf'; // ✅ Import resume
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -45,11 +46,11 @@ const Navbar = () => {
           <a href="https://linkedin.com/in/revanthshada" target="_blank" rel="noreferrer">
             <FaLinkedin size={24} className="hover:text-blue-700" />
           </a>
-          <a href="https://github.com/" target="_blank" rel="noreferrer">
+          <a href="https://github.com/revanthreddy7" target="_blank" rel="noreferrer">
             <FaGithub size={24} className="hover:text-gray-700" />
           </a>
 
-          <a href="/your_resume.pdf" download className="bg-blue-500 text-white px-3 py-1 rounded hover:bg-blue-600 ml-2">
+          <a href={resume} download className="bg-blue-500 text-white px-3 py-1 rounded hover:bg-blue-600 ml-2">
             Download Resume
           </a>
         </div>
