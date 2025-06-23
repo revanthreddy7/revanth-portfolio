@@ -6,10 +6,11 @@ const experiences = [
     company: "Pragmatic Play India Pvt. Ltd",
     duration: "Jan 2023 - Jul 2023",
     details: [
-      "Designed and executed server-side APIs utilizing Java, Spring Boot, and SQL technologies by creating REST API service and managed version control for an internal administrative portal",
-      "Integrated Redis caching with Spring Boot APIs, reducing database load by 60% and improving response times, while enabling real-time communication with Kafka-based message broadcasting",
-      "Fixed bugs for two gaming projects by optimizing the code and maintained the readability of the code. Enabled real-time communication for the gaming dashboard with Kafka-based message broadcasting",
-      "Deployed and monitored CI/CD pipelines and services using Docker, Jenkins, and Grafana dashboards for resource tracking improving reliability for QA environments releases"
+      "Developed performant backend APIs using C++, optimizing memory and I/O performance for distributed systems under concurrent access patterns",
+      "Integrated fault-tolerant features into critical modules with redundancy checks and performance monitors to ensure durability and availability of backend services",
+      "Leveraged Linux kernel interfaces and socket-level programming for system-level enhancements across containerized environments",
+      "Debugged and analyzed core dumps using GDB and Valgrind to identify memory leaks and threading issues under production load ",
+      "Participated in design and review of block storage APIs that enabled efficient handling of high-throughput transactional data"
     ]
   },
   {
@@ -17,12 +18,11 @@ const experiences = [
     company: "Rapid InSys",
     duration: "Sep 2021 - Dec 2022",
     details: [
-      "      Developed and maintained automated data extraction pipelines using Python, parsing varied file formats and ensuring data accuracy through robust retesting",
-      "Deployed containerized applications via Docker on AWS EC2 and automated workflows using Apache NiFi, with real-time ingestion from Amazon S3 to PostgreSQL and MongoDB",
-      "Built RESTful APIs using Python (Flask) and PostgreSQL, and implemented Redis caching to optimize response times for client-facing services",
-      "Created a real-time shuttle tracking system with a Python-Flask backend and React frontend, and monitored performance using Splunk, Grafana, and automated Bash scripts"
-
-
+     "Designed and implemented data replication protocols using Python and C to support consistent distributed pipelines over large-scale clusters",
+     "Built scalable backend services on Docker-orchestrated infrastructure integrating Apache NiFi, PostgreSQL, and custom telemetry layers", 
+     "Implemented fast write-path pipelines for ingestion-heavy applications using cache-first strategies with Redis and low-latency logging ",
+      "Developed disk throughput benchmarking utilities using shell scripts and tested read/write performance under storage-intensive workloads",
+      "Simulated distributed node failures to test and improve failover mechanisms and durability guarantees in microservices"
 
 
 
