@@ -2,6 +2,16 @@ import React from 'react';
 
 const projects = [
   {
+    title: "Cloud Block Storage Benchmark Suite",
+    description:"Built a benchmarking suite in C++ and Python to simulate distributed block-level reads/writes over emulated Azure storage clusters. Designed and validated tests for latency under high concurrency using synthetic workloads and evaluated disk scheduling strategies. Added telemetry logging, failover tracing, and disk stress metrics to simulate Azure ultra disk scenarios under pressure.",
+    tech:"Python, C++"
+  },
+  {
+    title: "Zettascale File Replication Simulator",
+    description:"Simulated zettabyte-scale file replication system using a multi-node cluster on virtual machines to test durability under network stress. Implemented consistent hashing and write-ahead logging to ensure data integrity under replica rebalancing operations. Used C++ threads and async I/O for building a modular simulation of storage backends with tunable block sizes and redundancy level",
+    tech:" Python, C++",
+  },
+  {
     title: "Price Prediction of Amazon Products",
     description:"developed a BERT-based NLP regression model to predict Amazon product prices using a dataset of over 800,000 listings, incorporating product titles, descriptions, and sales ranks as key features. The project involved extensive data preprocessing including stemming, lemmatization, stop word removal, and normalization, which reduced inconsistencies by 35% and improved processing efficiency by 25%. Leveraging Python and TensorFlow on GPU-accelerated infrastructure, I transformed textual and categorical data into model-ready formats and built a robust deep learning pipeline. Through iterative hyperparameter tuning and evaluation across varying training set sizes (50%, 60%, and 75%), the model achieved its best performance at 60% data utilization with an optimal RMSE of 48.59, successfully balancing accuracy and computational efficiency.",
     tech: "Python, TensorFlow, BERT, Data Preprocessing, Hyperparameter Tuning"
